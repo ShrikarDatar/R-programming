@@ -8,3 +8,14 @@ fact=function(no)
     
 }
 fact(5)
+#without recursion
+function()
+{
+  n=as.integer(readline(prompt = "Enter any number"))
+  fact=1
+  for(i in 1:n)
+  {
+      fact=fact*i
+  }
+  print(paste("Factorial is ",fact))
+} 
